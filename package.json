@@ -1,0 +1,44 @@
+{
+  "name": "jingzheng-did-service",
+  "version": "1.0.0",
+  "description": "井证DID服务 - 符合W3C标准的去中心化身份解决方案",
+  "private": true,
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.0.0",
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.4.0",
+    "tailwindcss": "^3.4.0",
+    "vite": "^4.4.0"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "serve": "vite preview --port 3000"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "keywords": [
+    "DID",
+    "去中心化身份",
+    "W3C",
+    "React",
+    "区块链"
+  ],
+  "author": "上海广元信息科技有限公司",
+  "license": "MIT"
+}
