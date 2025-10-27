@@ -5,7 +5,7 @@ const Main = () => {
     <main className="flex-1 flex flex-col items-center justify-center py-20 px-4 bg-white">
       {/* DID服务图标 - 纯CSS绘制 */}
       <div className="w-[270px] h-[209px] mb-8 flex items-center justify-center">
-        <div className="relative w-full h-full">
+        <div className="relative w-full h-full ml-10">
           {/* 主要文档形状 */}
           <div className="absolute bottom-0 w-3/4 h-1/2 bg-blue-50 rounded-t-lg"></div>
           <div className="absolute top-1/4 w-3/4 h-1/3 bg-blue-100 rounded-t-lg transform -rotate-3"></div>
