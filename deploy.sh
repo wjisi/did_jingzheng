@@ -10,3 +10,4 @@ npm run build
 # 拷贝到服务器
 rsync -avzr -e 'ssh -p 6422' dist/ front@58.243.201.56:~/frontcode/jdid_cn/dist
 
+#正式环境 https://jdid.cn
