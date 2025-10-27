@@ -1,4 +1,5 @@
 import React from 'react'
+import logo from '../images/logo.png'
 
 const Header = () => {
   return (
@@ -9,9 +10,7 @@ const Header = () => {
       <div className="absolute top-1/2 right-1/3 w-32 h-32 rounded-full bg-blue-300/10"></div>
       
       {/* 品牌标识 */}
-      <div className="bg-blue-700 px-4 py-2 rounded-lg inline-block mb-16">
-        <span className="text-white text-2xl font-bold">J.DID并证</span>
-      </div>
+      <img src={logo}/>
       
       {/* 主标题区域 */}
       <div className="flex flex-col items-center justify-center mb-16">
