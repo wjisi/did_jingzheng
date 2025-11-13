@@ -8,6 +8,7 @@ import { VueRouterAutoImports } from 'unplugin-vue-router'
 import VueRouter from 'unplugin-vue-router/vite'
 import { defineConfig } from 'vite'
 import vueDevTools from 'vite-plugin-vue-devtools'
+import { ViteImageOptimizer } from 'vite-plugin-image-optimizer'
 
 // https://vite.dev/config/
 export default defineConfig({
@@ -46,11 +47,15 @@ export default defineConfig({
     vue(),
     vueDevTools(),
     UnoCSS(),
+    ViteImageOptimizer(),
   ],
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url)),
     },
+  },
+  esbuild: {
+    drop: ['console', 'debugger'],
   },
   optimizeDeps: {
     // 当下载一个图标库时，需要在此加入，例如 @iconify-json/ep
