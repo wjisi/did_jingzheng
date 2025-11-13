@@ -1,0 +1,11 @@
+{
+  "menuItems": {
+    "home": "首页",
+    "about": "关于我们",
+    "products": "产品服务",
+    "architecture": "技术架构",
+    "scenarios": "应用场景",
+    "partners": "合作伙伴",
+    "contact": "联系我们"
+  }
+}
