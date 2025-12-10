@@ -112,15 +112,18 @@ onUnmounted(() => {
     <!-- 联系我们 -->
     <ContactUs />
     <!-- Footer备案信息 -->
-    <div class="h-13.3rem w-full flex flex-col snap-start items-start justify-around bg-gray-100 from-[#4142F1] to-[#7651F5] bg-gradient-to-r px-10rem py-1rem">
-      <img src="@/images/logo.png" alt="" class="h-3.33rem w-auto">
-      <div class="text-1.33rem text-#E9E9F2">
-        JDID致力于打造自主可控、安全可信的去中心化身份基础设施，让每个人都能真正拥有并掌控自己的数字身份与数据。
+    <div class="w-full snap-start bg-gray-100 from-[#4142F1] to-[#7651F5] bg-gradient-to-r">
+      <div class="border-box w-full h-160px px-8rem flex flex-col items-start justify-center">
+        <img src="@/images/logo.png" alt="" class="h-3.33rem w-auto">
+        <span class="text-16px text-#E9E9F2 mt-20px">
+          JDID致力于打造自主可控、安全可信的去中心化身份基础设施，让每个人都能真正拥有并掌控自己的数字身份与数据。
+        </span>
       </div>
-      <div class="justify-betwen flex items-center gap-x-1rem text-center text-#E9E9F2">
+      <div class="border-box w-full h-60px px-8rem flex items-center justify-between bg-#1b1d36 text-#b3b3bd">
         <p class="text-base">
           © 2025 上海光元信息科技有限公司 版权所有
         </p>
+        <a href="https://beian.mps.gov.cn" class="text-base hover:text-#fff" target="_blank">沪公网安备31011502404457号</a>
         <a href="https://beian.miit.gov.cn/" class="text-base hover:text-#fff" target="_blank">沪ICP备20001408号-3</a>
       </div>
     </div>
